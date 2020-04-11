@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+  position: relative;
+}
+.blog-text {
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.text-title {
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Playfair Display', serif;
+}
+.author {
+  text-align: center;
+}
+.publish-time {
+  text-align: center;
+  color: #636e72;
+}
+.image-blog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.container-blog {
+  justify-content: center;
+}
+.sub-titte {
+  text-align: center;
+}
+.ig-link {
+  font-size: 14px;
+  font-family: Helvetica;
+  text-decoration: none;
+  color: #754c29;
+}

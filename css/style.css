@@ -1,0 +1,131 @@
+html{
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-image: url("../assets/bg-style.jpg");
+    width: "100%";
+    height: "100%";
+    position: relative;
+  }
+
+  .Wrapper-image{
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: center;
+   margin-left:auto;
+   margin-right:auto;
+   margin-top: 5%;
+  }
+  .child-image {
+    margin-left:2%;
+    margin-right:2%;
+    width: 20%;
+  }
+
+  .title-image{
+      text-align: center;
+      padding-top:5px ;
+      font-family: 'Playfair Display', serif;
+      font-size: 25px;
+      color:#582823;
+  }
+  
+  .home-header {
+    color: #965b39;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    font-size: 48px;
+  }
+  .box-article{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+  }
+  .article-header {
+    color: #965b39;
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    font-size: 48px;
+    bottom: 50%;
+  }
+  .home-subheader {
+    text-align: center;
+    color: #582823;
+    font-family:  Helvetica
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-right: 2%;
+  }
+  li {
+    display: inline;
+  }
+  .link {
+    padding: 60px;
+    color: #754c29;
+    font-family:  Helvetica;
+    text-decoration:none
+  }
+  a:hover{
+    color: #582823;
+  }
+  .container-navbar{
+      margin-bottom: 20px;
+  }
+  .img-home{
+      display: block;
+      margin:  auto;
+  }
+  
+  /* Carousel Style */
+  .slideshow-container {
+    max-width:800px;
+    position: relative;
+    margin: auto;
+  }
+  .mySlides {
+  display: none;
+  height: 400px;
+  border: none 
+  }
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    width: 20px;
+    padding:20px;
+    color:#A97C50;
+    transition: .6s ease;
+    border-radius: 0 3px 3px 0
+  }
+  .next {
+    right: -50px;
+    border-radius: 3px 3px 3px 3px
+  }
+  
+  .prev {
+    left: -50px;
+    border-radius: 3px 3px 3px 3px
+  }
+  
+  .prev:hover,
+  .next:hover {
+    color: #754c29;
+  }
+  
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #582823;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #A97C50;
+  }
+  
