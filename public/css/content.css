@@ -1,0 +1,446 @@
+.image-content {
+  width: 50%;
+  margin-right: 2%;
+  position: relative;
+  right: 4%;
+  border: 4px solid #a97c50;
+}
+* {
+  box-sizing: border-box;
+}
+
+.box-image-home {
+  display: flex;
+  font-family: HelveticaNueue;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  text-align: center;
+  margin-bottom: 10%;
+  width: 75%;
+  align-items: center;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 2px;
+}
+
+.image-card {
+  margin: 5% 10% 5%;
+  position: relative;
+  width: 30%;
+  justify-content: center;
+}
+.row {
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card-text {
+  position: relative;
+  margin: 0 40% 10% 10%;
+  width: 80%;
+  height: 90%;
+}
+.container {
+  width: 90%;
+  border: 1px solid black;
+}
+
+@font-face {
+  font-family: HelveticaNueue;
+  src: url(../assets/fonts/Helvetica55Roman_22439.ttf);
+}
+
+.text-highlight {
+  font-family: HelveticaNueue;
+  text-align: center;
+  line-height: 1.6;
+  margin-top: 10%;
+  font-size: 16px;
+}
+.text-title {
+  font-family: "GFS Didot", serif;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+}
+.text-author-3 {
+  font-family: HelveticaNueue;
+  color: #1c75bc;
+  left: 8px;
+  bottom: 1px;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bolder;
+}
+.text-author {
+  font-family: HelveticaNueue;
+  color: #1c75bc;
+  left: 8px;
+  position: relative;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bolder;
+}
+.date-publish {
+  font-family: "GFS Didot", serif;
+  text-align: center;
+  font-size: 14px;
+  bottom: 20px;
+  position: relative;
+  left: 6px;
+  text-align: center;
+  color: #636e72;
+}
+.read-more {
+  font-family: "Playfair Display", serif;
+  left: 120px;
+  position: relative;
+  font-size: 16px;
+  font-weight: bolder;
+  color: #c49a6c;
+}
+
+/* responsive  */
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .text-padding {
+    position: absolute;
+    top: 20%;
+    font-size: 12px;
+    font-family: HelveticaNueue;
+  }
+
+  .image-content {
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    left: 4px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #a97c50;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  .box-image-home {
+    display: grid;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 80%;
+    align-items: center;
+    font-family: HelveticaNueue;
+  }
+  .column {
+    justify-content: center;
+    width: 100%;
+    padding: 2px;
+  }
+  .image-card {
+    width: 50%;
+  }
+  .row {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+  .row::after {
+    clear: both;
+    display: grid;
+  }
+  .card-text {
+    position: relative;
+    margin: 0 40% 10% 10%;
+    width: 80%;
+    height: 100%;
+  }
+  .container {
+    width: 80%;
+    margin: 0 40% 10% 10%;
+    border: 1px solid black;
+  }
+
+  @font-face {
+    font-family: HelveticaNueue;
+    src: url(../assets/fonts/Helvetica55Roman_22439.ttf);
+  }
+
+  .text-highlight {
+    font-family: HelveticaNueue;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .text-title {
+    font-family: "GFS Didot", serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .text-author-3 {
+    font-family: HelveticaNueue;
+    color: #1c75bc;
+    left: 8px;
+    bottom: 1px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .text-author {
+    font-family: HelveticaNueue;
+    color: #1c75bc;
+    left: 8px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .date-publish {
+    font-family: "GFS Didot", serif;
+    text-align: center;
+    font-size: 14px;
+    bottom: 20px;
+    position: relative;
+    left: 6px;
+    text-align: center;
+    color: #636e72;
+  }
+  .read-more {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 60px;
+    font-weight: bolder;
+    justify-content: center;
+    color: #c49a6c;
+  }
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1550px) {
+  .read-more {
+    font-family: "Playfair Display", serif;
+    left: 35%;
+    position: relative;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #c49a6c;
+  }
+
+  .image-content {
+    width: 40%;
+    border: 4px solid #a97c50;
+    margin-right: 2%;
+    position: relative;
+    right: 4%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box-image-home {
+    padding-top: 40px;
+    margin-bottom: 30%;
+    display: flex;
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-family: HelveticaNueue;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .read-more {
+    font-family: "Playfair Display", serif;
+    left: 30%;
+    position: relative;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #c49a6c;
+  }
+  .image-content {
+    width: 35%;
+    border: 4px solid #a97c50;
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  .box-image-home {
+    display: flex;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 80%;
+    align-items: center;
+    font-family: HelveticaNueue;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .read-more {
+    font-family: "Playfair Display", serif;
+    left: 26%;
+    position: relative;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #c49a6c;
+  }
+
+  .box-image-home {
+    display: flex;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 80%;
+    align-items: center;
+    font-family: HelveticaNueue;
+  }
+  .image-content {
+    width: 50%;
+    border: 4px solid #a97c50;
+  }
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .image-content {
+    width: 80%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    left: 4px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid #a97c50;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .box-image-home {
+    display: grid;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 10%;
+    width: 80%;
+    align-items: center;
+    font-family: HelveticaNueue;
+  }
+  .column {
+    justify-content: center;
+    width: 100%;
+    padding: 2px;
+  }
+  .image-card {
+    width: 50%;
+  }
+  .row {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+  }
+  .row::after {
+    clear: both;
+    display: grid;
+  }
+  .card-text {
+    position: relative;
+    margin: 0 40% 10% 10%;
+    width: 80%;
+    height: 100%;
+  }
+  .container {
+    width: 80%;
+    margin: 0 40% 10% 10%;
+    border: 1px solid black;
+  }
+
+  @font-face {
+    font-family: HelveticaNueue;
+    src: url(../assets/fonts/Helvetica55Roman_22439.ttf);
+  }
+
+  .text-highlight {
+    font-family: HelveticaNueue;
+    text-align: center;
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  .text-title {
+    font-family: "GFS Didot", serif;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  .text-author-3 {
+    font-family: HelveticaNueue;
+    color: #1c75bc;
+    left: 8px;
+    bottom: 1px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .text-author {
+    font-family: HelveticaNueue;
+    color: #1c75bc;
+    left: 8px;
+    position: relative;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  .date-publish {
+    font-family: "GFS Didot", serif;
+    text-align: center;
+    font-size: 14px;
+    bottom: 20px;
+    position: relative;
+    left: 6px;
+    text-align: center;
+    color: #636e72;
+  }
+  .read-more {
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 55px;
+    font-weight: bolder;
+    justify-content: center;
+    color: #c49a6c;
+  }
+}
