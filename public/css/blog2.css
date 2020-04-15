@@ -7,7 +7,8 @@ body {
 .head-link {
   color: #c49a6c;
   font-family: Edwarian;
-  font-weight: bolder;
+  font-weight: 400;
+  margin: 2%;
   font-size: 48px;
   text-decoration: none;
 }
@@ -63,19 +64,20 @@ body {
 /* Footer Style  */
 
 .copyright {
-  margin-top: 10%;
+  top:10%;
+  position: relative;
   color: #ffffff;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer-text {
   color: #ffffff;
-  display: grid;
   position: relative;
   text-align: center;
   font-family: Edwarian;
-  font-size: 48px;
+  font-size: 96px;
+  font-weight: 400;
 }
 .icon-wrapper {
   height: 100px;
@@ -86,7 +88,7 @@ body {
 }
 
 footer {
-  top: 20%;
+  top: 10%;
   bottom: 0;
   width: 100%;
   background-image: url(../assets/footer-try.jpeg);
@@ -100,7 +102,7 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10%;
+  bottom: 15%;
 }
 a {
   color: #ffffff;
@@ -127,31 +129,32 @@ a {
     font-weight: bolder;
     font-family: "Playfair Display", serif;
   }
+  /* Footer Style  */
+
   .copyright {
     top: 30%;
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
     color: #ffffff;
     text-align: center;
     font-family: "Playfair Display", serif;
-    font-size: 16px;
+    font-size: 18px;
   }
   .footer-text {
     color: #ffffff;
+    display: grid;
+    position: relative;
     text-align: center;
     font-family: Edwarian;
-    font-size: 40px;
+    font-size: 48px;
   }
   .icon-wrapper {
     height: 100px;
     width: 100px;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
-    position: relative;
     display: inline-block;
   }
+
   footer {
     top: 20%;
     bottom: 0;
@@ -178,7 +181,8 @@ a {
     font-family: Edwarian;
     font-weight: bolder;
     font-size: 36px;
-    left: 10%;
+    font-weight: 400;
+    left: 160px;
     position: relative;
     text-decoration: none;
   }
@@ -190,7 +194,7 @@ a {
     font-family: "Playfair Display", serif;
   }
   .copyright {
-    top: 20%;
+    top: 30%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -203,14 +207,14 @@ a {
     color: #ffffff;
     text-align: center;
     font-family: Edwarian;
-    font-size: 40px;
+    font-size: 48px;
   }
   .icon-wrapper {
     height: 100px;
     width: 100px;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    top: 80px;
     position: relative;
     display: inline-block;
   }

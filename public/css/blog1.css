@@ -4,13 +4,13 @@ body {
   margin: 0;
 }
 
-
-.head-link{
-  color:  #C49A6C;
+.head-link {
+  color: #c49a6c;
   font-family: Edwarian;
-  font-weight: bolder;
+  font-weight: 400;
+  margin: 2%;
   font-size: 48px;
-  text-decoration:none
+  text-decoration: none;
 }
 
 .blog-text {
@@ -24,7 +24,7 @@ body {
 .text-title {
   text-align: center;
   font-weight: bolder;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 .author {
   text-align: center;
@@ -51,9 +51,9 @@ body {
   text-decoration: none;
   color: #754c29;
 }
-.footer-image{
+.footer-image {
   background-image: url(../assets/footer-try.jpeg);
-  width:100%;
+  width: 100%;
 }
 
 @font-face {
@@ -61,23 +61,23 @@ body {
   src: url(../assets//fonts/Edwardian_Scr_ITC_TT.ttf);
 }
 
-
 /* Footer Style  */
 
 .copyright {
-  margin-top: 10%;
+  top:10%;
+  position: relative;
   color: #ffffff;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer-text {
   color: #ffffff;
-  display: grid;
   position: relative;
   text-align: center;
   font-family: Edwarian;
-  font-size: 48px;
+  font-size: 96px;
+  font-weight: 400;
 }
 .icon-wrapper {
   height: 100px;
@@ -88,7 +88,7 @@ body {
 }
 
 footer {
-  top: 20%;
+  top: 10%;
   bottom: 0;
   width: 100%;
   background-image: url(../assets/footer-try.jpeg);
@@ -102,108 +102,103 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10%;
+  bottom: 15%;
 }
 a {
   color: #ffffff;
 }
 
+
 /* responsive  */
 
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-    .head-link{
-      padding: 65px;
-      color:  #C49A6C;
-      font-family: Edwarian;
-      font-weight: bolder;
-      font-size: 36px;
-      left: 10%;
-      position: relative;
-      text-decoration:none
-    }
-    .text-title {
-      font-size: 20px;
-      margin-left: 20%;
-      margin-right: 20%;
-      font-weight: bolder;
-      font-family: 'Playfair Display', serif;
-    }
-    .copyright {
-      top: 30%;
-      position: relative;
-      margin-left: auto;
-      margin-right:auto ;
-      color: #ffffff;
-      text-align: center;
-      font-family: "Playfair Display", serif;
-      font-size: 16px;
-    }
-    .footer-text {
-      color: #ffffff;
-      text-align: center;
-      font-family: Edwarian;
-      font-size: 40px;
-    }
-    .icon-wrapper {
-      height: 100px;
-      width: 100px;
-      margin-right: 2%;
-      margin-left: 2%;
-      margin-top: 5%;
-      position: relative;
-      display: inline-block;
-    }
-    footer {
-      top: 20%;
-      bottom: 0;
-      width: 100%;
-      background-image: url(../assets/footer-try.jpeg);
-      background-attachment: fixed;
-      margin-top: 15%;
-      clear: both;
-      position: relative;
-      height: 400px;
-    }
-    .footer-icon {
-      display: flex;
-      justify-content: center;
-    }
-    a {
-      color: #ffffffff;
-    }
-    
-
-}
-
-
-@media screen and (max-width: 600px) {
-  .head-link{
-    color:  #C49A6C;
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .head-link {
+    color: #c49a6c;
     font-family: Edwarian;
     font-weight: bolder;
     font-size: 36px;
     left: 10%;
     position: relative;
-    text-decoration:none
+    text-decoration: none;
   }
   .text-title {
     font-size: 20px;
     margin-left: 20%;
     margin-right: 20%;
     font-weight: bolder;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
+  }
+  /* Footer Style  */
+
+  .copyright {
+    top: 30%;
+    position: relative;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+  }
+  .footer-text {
+    color: #ffffff;
+    display: grid;
+    position: relative;
+    text-align: center;
+    font-family: Edwarian;
+    font-size: 48px;
+  }
+  .icon-wrapper {
+    height: 100px;
+    width: 100px;
+    margin-right: 2%;
+    margin-left: 2%;
+    display: inline-block;
+  }
+
+  footer {
+    top: 20%;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../assets/footer-try.jpeg);
+    background-attachment: fixed;
+    margin-top: 15%;
+    clear: both;
+    position: relative;
+    height: 400px;
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    color: #ffffffff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .head-link {
+    color: #c49a6c;
+    font-family: Edwarian;
+    font-weight: bolder;
+    font-weight: 400;
+    font-size: 36px;
+    left: 160px;
+    position: relative;
+    text-decoration: none;
+  }
+  .text-title {
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: bolder;
+    font-family: "Playfair Display", serif;
   }
   .copyright {
-    top: 20%;
+    top: 30%;
     position: relative;
     margin-left: auto;
-    margin-right:auto ;
+    margin-right: auto;
     color: #ffffff;
     text-align: center;
     font-family: "Playfair Display", serif;
@@ -213,14 +208,14 @@ a {
     color: #ffffff;
     text-align: center;
     font-family: Edwarian;
-    font-size: 40px;
+    font-size: 48px;
   }
   .icon-wrapper {
     height: 100px;
     width: 100px;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    top: 80px;
     position: relative;
     display: inline-block;
   }
@@ -243,4 +238,3 @@ a {
     color: #ffffffff;
   }
 }
-

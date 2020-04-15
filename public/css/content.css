@@ -11,8 +11,8 @@
 
 .box-image-home {
   display: flex;
-  font-family: HelveticaNueue;
-  font-size: 20px;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 26px;
   line-height: 1.6;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,7 @@
 }
 
 .text-highlight {
-  font-family: HelveticaNueue;
+  font-family: 'Noto Serif TC', serif;
   text-align: center;
   line-height: 1.6;
   margin-top: 10%;
@@ -74,9 +74,9 @@
   font-weight: 400;
 }
 .text-author-3 {
-  font-family: HelveticaNueue;
+  font-family: 'Noto Serif TC', serif;
   color: #1c75bc;
-  left: 8px;
+  left: 5px;
   bottom: 1px;
   position: relative;
   font-size: 14px;
@@ -84,7 +84,7 @@
   font-weight: bolder;
 }
 .text-author {
-  font-family: HelveticaNueue;
+  font-family: 'Noto Serif TC', serif;
   color: #1c75bc;
   left: 8px;
   position: relative;
@@ -116,13 +116,6 @@
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  .text-padding {
-    position: absolute;
-    top: 20%;
-    font-size: 12px;
-    font-family: HelveticaNueue;
-  }
-
   .image-content {
     width: 100%;
     margin-top: 100px;
@@ -147,7 +140,7 @@
     margin-bottom: 10%;
     width: 80%;
     align-items: center;
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
   }
   .column {
     justify-content: center;
@@ -178,11 +171,6 @@
     border: 1px solid black;
   }
 
-  @font-face {
-    font-family: HelveticaNueue;
-    src: url(../assets/fonts/Helvetica55Roman_22439.ttf);
-  }
-
   .text-highlight {
     font-family: HelveticaNueue;
     text-align: center;
@@ -196,7 +184,7 @@
     font-weight: bolder;
   }
   .text-author-3 {
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
     color: #1c75bc;
     left: 8px;
     bottom: 1px;
@@ -206,7 +194,7 @@
     font-weight: bolder;
   }
   .text-author {
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
     color: #1c75bc;
     left: 8px;
     position: relative;
@@ -267,7 +255,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
   }
 }
 
@@ -298,7 +286,7 @@
     margin-bottom: 10%;
     width: 80%;
     align-items: center;
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
   }
 }
 
@@ -322,7 +310,7 @@
     margin-bottom: 10%;
     width: 80%;
     align-items: center;
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
   }
   .image-content {
     width: 50%;
@@ -357,7 +345,7 @@
     margin-bottom: 10%;
     width: 80%;
     align-items: center;
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
   }
   .column {
     justify-content: center;
@@ -388,13 +376,9 @@
     border: 1px solid black;
   }
 
-  @font-face {
-    font-family: HelveticaNueue;
-    src: url(../assets/fonts/Helvetica55Roman_22439.ttf);
-  }
-
+ 
   .text-highlight {
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
     text-align: center;
     line-height: 1.6;
     font-size: 16px;
@@ -403,10 +387,10 @@
     font-family: "GFS Didot", serif;
     text-align: center;
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: 400;
   }
   .text-author-3 {
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
     color: #1c75bc;
     left: 8px;
     bottom: 1px;
@@ -416,7 +400,7 @@
     font-weight: bolder;
   }
   .text-author {
-    font-family: HelveticaNueue;
+    font-family: 'Noto Serif TC', serif;
     color: #1c75bc;
     left: 8px;
     position: relative;

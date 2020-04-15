@@ -11,6 +11,7 @@ body {
   position: relative;
   text-align: center;
   font-family: Edwarian;
+  font-weight: 400;
   font-size: 128px;
 }
 .navbar {
@@ -56,19 +57,20 @@ a:hover {
 /* Footer Style  */
 
 .copyright {
-  margin-top: 10%;
+  top:10%;
+  position: relative;
   color: #ffffff;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer-text {
   color: #ffffff;
-  display: grid;
   position: relative;
   text-align: center;
   font-family: Edwarian;
-  font-size: 48px;
+  font-size: 96px;
+  font-weight: 400;
 }
 .icon-wrapper {
   height: 100px;
@@ -79,7 +81,7 @@ a:hover {
 }
 
 footer {
-  top: 20%;
+  top: 10%;
   bottom: 0;
   width: 100%;
   background-image: url(../assets/footer-try.jpeg);
@@ -93,7 +95,7 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10%;
+  bottom: 15%;
 }
 a {
   color: #ffffff;
@@ -167,9 +169,9 @@ a {
     width: 100px;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    top: 20%;
     position: relative;
-    display: inline-block;
+    display: grid;
   }
   footer {
     top: 20%;
@@ -218,6 +220,49 @@ a {
   }
   a:hover {
     color: #582823;
+  }
+  .copyright {
+    top: 30%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+  }
+  .footer-text {
+    color: #ffffff;
+    text-align: center;
+    font-family: Edwarian;
+    font-size: 48px;
+  }
+  .icon-wrapper {
+    height: 100px;
+    width: 100px;
+    margin-right: 2%;
+    margin-left: 2%;
+    top: 80px;
+    position: relative;
+    display: inline-block;
+  }
+  footer {
+    top: 20%;
+    bottom: 0;
+    width: 100%;
+    background-image: url(../assets/footer-try.jpeg);
+    background-attachment: fixed;
+    margin-top: 15%;
+    clear: both;
+    position: relative;
+    height: 400px;
+  }
+  .footer-icon {
+    display: flex;
+    justify-content: center;
+  }
+  a {
+    color: #ffffffff;
   }
 
   /* Carousel Style */
@@ -285,8 +330,6 @@ a {
   .navbar {
     display: flex;
     justify-content: center;
-    margin-right: 12%;
-    margin-left: 5%;
   }
   li {
     display: inline;
@@ -296,13 +339,13 @@ a {
     color: #754c29;
     font-family: "Playfair Display", serif;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
   }
   a:hover {
     color: #582823;
   }
-
+  
   .img-home {
     display: block;
     margin: auto;

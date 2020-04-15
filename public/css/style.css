@@ -220,19 +220,20 @@ a:hover {
 /* Footer Style  */
 
 .copyright {
-  margin-top: 10%;
+  top:10%;
+  position: relative;
   color: #ffffff;
   text-align: center;
   font-family: "Playfair Display", serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 .footer-text {
   color: #ffffff;
-  display: grid;
   position: relative;
   text-align: center;
   font-family: Edwarian;
-  font-size: 48px;
+  font-size: 96px;
+  font-weight: 400;
 }
 .icon-wrapper {
   height: 100px;
@@ -243,7 +244,7 @@ a:hover {
 }
 
 footer {
-  top: 20%;
+  top: 10%;
   bottom: 0;
   width: 100%;
   background-image: url(../assets/footer-try.jpeg);
@@ -257,7 +258,7 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 10%;
+  bottom: 15%;
 }
 a {
   color: #ffffff;
@@ -738,8 +739,9 @@ a {
   }
   .navbar {
     display: flex;
-    justify-content: center;
-    margin-right: 2%;
+    align-items: center;
+    position: relative;
+    right: 10px;
   }
   li {
     display: inline;
@@ -749,7 +751,7 @@ a {
     color: #754c29;
     font-family: "Playfair Display", serif;
     font-weight: bolder;
-    font-size: 12px;
+    font-size: 18px;
     text-decoration: none;
   }
   a:hover {
@@ -767,7 +769,7 @@ a {
   }
 
   .copyright {
-    top: 20%;
+    top: 30%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -780,14 +782,14 @@ a {
     color: #ffffff;
     text-align: center;
     font-family: Edwarian;
-    font-size: 40px;
+    font-size: 48px;
   }
   .icon-wrapper {
     height: 100px;
     width: 100px;
     margin-right: 2%;
     margin-left: 2%;
-    margin-top: 5%;
+    top: 80px;
     position: relative;
     display: inline-block;
   }
@@ -811,54 +813,3 @@ a {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .navbar {
-    display: flex;
-    justify-content: center;
-    margin-right: 2%;
-    margin-bottom: 10%;
-  }
-  li {
-    display: inline;
-  }
-  .link {
-    padding: 60px;
-    color: #754c29;
-    font-family: "Playfair Display", serif;
-    font-weight: bolder;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #582823;
-  }
-  .container-navbar {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .navbar {
-    display: flex;
-    justify-content: center;
-    margin-right: 2%;
-    margin-bottom: 10%;
-  }
-  li {
-    display: inline;
-  }
-  .link {
-    padding: 60px;
-    color: #754c29;
-    font-family: "Playfair Display", serif;
-    font-weight: bolder;
-    font-size: 20px;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #582823;
-  }
-  .container-navbar {
-    margin-bottom: 20px;
-  }
-}
