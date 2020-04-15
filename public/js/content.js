@@ -30,71 +30,37 @@ const author = card.map((item) => item.author);
 const content = card.map((item) => item.content);
 
 
-
 title_one = () => {
   document.getElementById("title-one").innerHTML = title[0];
-};
-
-title_two = () => {
   document.getElementById("title-two").innerHTML = title[1];
-};
-
-title_three = () => {
   document.getElementById("title-three").innerHTML = title[2];
 };
 
 date_one = () => {
   document.getElementById("date-one").innerHTML = date[0];
-};
-
-date_two = () => {
   document.getElementById("date-two").innerHTML = date[1];
-};
-date_three = () => {
   document.getElementById("date-three").innerHTML = date[2];
 };
 
+
 author_one = () => {
     document.getElementById("author-one").innerHTML = author[0];
-  };
-  
-author_two = () => {
     document.getElementById("author-two").innerHTML = author[1];
-  };
-author_three = () => {
     document.getElementById("author-three").innerHTML = author[2];
-};
+  };
 
 content_one = () => {
     document.getElementById("content-one").innerHTML = content[0];
+    document.getElementById("content-two").innerHTML = content[1];
+    document.getElementById("content-three").innerHTML = content[2];
   };
   
-content_two = () => {
-    document.getElementById("content-two").innerHTML = content[1];
-  };
-content_three = () => {
-    document.getElementById("content-three").innerHTML = content[2];
-};
-
-
-
-
 //For Show Title
 title_one();
-title_two();
-title_three();
-
 //For Show Date
 date_one();
-date_two();
-date_three();
-
 //For Show Author 
 author_one()
-author_two()
-author_three()
-
 //For Show Content
 content_one()
-content_two()
-content_three()
+

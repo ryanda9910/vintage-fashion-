@@ -9,11 +9,9 @@ window.addEventListener("load", function () {
   myTimer = setInterval(function () {
     plusSlides(1);
   }, 2000);
-  slideshowContainer.addEventListener("mouseenter", pause);
-  slideshowContainer.addEventListener("mouseleave", resume);
 });
 
-function plusSlides(n) {
+plusSlides=(n)=> {
   clearInterval(myTimer);
   if (n < 0) {
     showSlides((slideIndex -= 1));
@@ -31,7 +29,7 @@ function plusSlides(n) {
   }
 }
 
-function currentSlide(n) {
+ currentSlide=(n)=>{
   clearInterval(myTimer);
   myTimer = setInterval(function () {
     plusSlides(n + 1);
@@ -39,7 +37,7 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
-function showSlides(n) {
+showSlides=(n)=>{
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");

@@ -1,39 +1,38 @@
+const link = [
+  {
+    navlink: "index.html",
+    bloglink: "blog1.html",
+  },
+  {
+    navlink: "about.html",
+    bloglink: "blog2.html",
+  },
+  {
+    navlink: "style.html",
+    bloglink: "blog3.html",
+  },
+];
+
+const navlink = link.map((item) => item.navlink);
+const bloglink = link.map((item) => item.bloglink);
+
 // function to Blog Page
-link_one = () => {
-  document.getElementById("link-one").href = "blog1.html";
-};
-
-link_two = () => {
-  document.getElementById("link-two").href = "blog2.html";
-};
-
-link_three = () => {
-  document.getElementById("link-three").href = "blog3.html";
+blog_link = (e) => {
+  e.preventDefault()
+  document.getElementById("link-one").href = bloglink[0];
+  document.getElementById("link-two").href = bloglink[1];
+  document.getElementById("link-three").href = bloglink[2];
 };
 
 // Direct to Blog Page
-link_one();
-link_two();
-link_three();
+blog_link();
 
 // function for navigation bar
-
-nav_one = () => {
-  document.getElementById("nav-one").href = "index.html";
+nav_link = (e) => {
+  e.preventDefault()
+  document.getElementById("nav-one").href = navlink[0];
+  document.getElementById("nav-two").href = navlink[1];
+  document.getElementById("nav-three").href = navlink[2];
 };
-nav_two = () => {
-  document.getElementById("nav-two").href = "about.html";
-};
-nav_three = () => {
-  document.getElementById("nav-three").href = "style.html";
-};
-
-nav_one_about = () => {
-  document.getElementById("nav-one-about").href = "index.html";
-};
-
 // Direct for Navigation Bar
-nav_one();
-nav_two();
-nav_three();
-nav_one_about();
+nav_link();

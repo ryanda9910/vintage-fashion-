@@ -47,6 +47,10 @@ body {
 }
 .ig-link {
   font-size: 14px;
+  position: relative;
+  bottom:40px;
+  left: 800px;
+  align-items: center;
   font-family: Helvetica;
   text-decoration: none;
   color: #754c29;

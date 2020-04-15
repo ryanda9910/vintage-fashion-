@@ -263,8 +263,8 @@ a {
     width: 100%;
   }
   .copyright {
-    top: 30%;
-    position: relative;
+    bottom: 200px;
+    position: absolute;
     color: #ffffff;
     text-align: center;
     font-family: "Playfair Display", serif;
@@ -314,7 +314,6 @@ a {
   .image-child-2 {
     width: 40%;
     position: relative;
-    margin-left: 20%;
   }
 
   .image-child-3 {
@@ -554,130 +553,6 @@ a {
     font-family: "Playfair Display", serif;
   }
 }
-@media screen and (max-width: 400px) {
-  .title-content {
-    position: relative;
-    left: 20%;
-    line-height: 0.5rem;
-    font-size: 24px;
-    color: #a82324;
-    font-weight: 400;
-    font-family: "Playfair Display", serif;
-  }
-  .title-content-sub {
-    position: relative;
-    left: 20%;
-    text-align: left;
-    line-height: 0.001rem;
-    font-size: 24px;
-    font-weight: 400;
-    color: #a82324;
-    font-family: "Playfair Display", serif;
-  }
-  .text-one {
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Noto Serif TC', serif;
-  }
-  .line-one {
-    display: none;
-  }
-  .line-two {
-    display: none;
-  }
-
-  blockquote {
-    font-family: "Playfair Display", serif;
-    color: #a82324;
-    margin-left: 0;
-    width: 100%;
-    font-size: 22px;
-    padding-left: 1em;
-  }
-  .blockqoute {
-    position: absolute;
-    display: grid;
-    bottom: 30%;
-    margin: 2%;
-    left: 20%;
-    justify-content: center;
-  }
-  blockquote:before {
-    content: open-quote;
-  }
-  blockquote:after {
-    content: close-quote;
-  }
-
-  .qoute {
-    font-size: 18px;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .title-content {
-    position: relative;
-    left: 20%;
-    line-height: 0.5rem;
-    font-size: 24px;
-    color: #a82324;
-    font-weight: 400;
-    font-family: "Playfair Display", serif;
-  }
-  .title-content-sub {
-    position: relative;
-    left: 20%;
-    text-align: left;
-    line-height: 0.001rem;
-    font-size: 24px;
-    font-weight: 400;
-    color: #a82324;
-    font-family: "Playfair Display", serif;
-  }
-  .text-one {
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Noto Serif TC', serif;
-  }
-  .line-one {
-    display: none;
-  }
-  .line-two {
-    display: none;
-  }
-
-  blockquote {
-    font-family: "Playfair Display", serif;
-    color: #a82324;
-    margin-left: 0;
-    width: 100%;
-    font-size: 22px;
-    padding-left: 1em;
-  }
-  .blockqoute {
-    position: absolute;
-    display: grid;
-    bottom: 30%;
-    margin: 2%;
-    left: 1%;
-    justify-content: center;
-  }
-  blockquote:before {
-    content: open-quote;
-  }
-  blockquote:after {
-    content: close-quote;
-  }
-
-  .qoute {
-    font-size: 18px;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-  }
-  
-}
 
 @media screen and (max-width: 600px) {
   .home-header {
@@ -710,7 +585,7 @@ a {
     width: 100%;
   }
   .copyright {
-    top: 30%;
+    top: 20%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -761,12 +636,12 @@ a {
   .image-child-1 {
     position: absolute;
     width: 40%;
-    top: 20%;
+    top: 100px
   }
   .image-child-2 {
     width: 40%;
     position: relative;
-    left: 180px;
+    left: 150px;
   }
 
   .image-child-3 {
@@ -778,7 +653,7 @@ a {
   }
   .image-wrapper-one {
     position: absolute;
-    top: 8%;
+    top: 150px;
   }
   .image-wrapper-two {
     position: relative;
@@ -831,7 +706,7 @@ a {
   .text-one {
     position: absolute;
     display: grid;
-    top: 50%;
+    top: 200px;
     text-align: justify;
     font-size: 22px;
     font-family: HelveticaNueue;
@@ -847,15 +722,14 @@ a {
     font-family: "Playfair Display", serif;
     color: #a82324;
     margin-left: 0;
+    top: 30%;
     font-size: 32px;
     left: 200px;
-    padding-left: 1em;
   }
   .blockqoute {
     position: absolute;
     display: grid;
-    bottom: 20%;
-    margin: 20%;
+    top: 20px;
     left: 50%;
     justify-content: center;
   }
@@ -913,12 +787,12 @@ a {
     position: absolute;
     display: grid;
     bottom: 15%;
-    left: 400px;
+    left: 350px;
   }
   blockquote {
     font-family: "Playfair Display", serif;
     color: #a82324;
-    font-size: 40px;
+    font-size: 32px;
   }
   blockquote:before {
     content: open-quote;
@@ -926,7 +800,6 @@ a {
   blockquote:after {
     content: close-quote;
   }
-
   .line-two {
     width: 40%;
     height: 2px;
@@ -964,18 +837,20 @@ a {
   .line-two {
     display: none;
   }
+  .image-child-3 {
+    width: 80%;
+    position: relative;
+  }
   .blockqoute {
-    position: absolute;
+    position: relative;
     display: grid;
     bottom: 15%;
-    margin: 20%;
     left: 5%;
   }
   blockquote {
     font-family: "Playfair Display", serif;
     color: #a82324;
-    margin-left: 0;
-    font-size: 32px;
+    font-size: 28px; 
     padding-left: 1em;
   }
   .blockqoute {
@@ -993,68 +868,8 @@ a {
   }
 
   .qoute {
+    top: 20px;
     font-size: 26px;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-  }
-}
-@media screen and (max-width: 400px) {
-  .title-content {
-    position: relative;
-    left: 20%;
-    line-height: 0.5rem;
-    font-size: 24px;
-    color: #a82324;
-    font-weight: 400;
-    font-family: "Playfair Display", serif;
-  }
-  .title-content-sub {
-    position: relative;
-    left: 20%;
-    text-align: left;
-    line-height: 0.001rem;
-    font-size: 24px;
-    font-weight: 400;
-    color: #a82324;
-    font-family: "Playfair Display", serif;
-  }
-  .text-one {
-    text-align: justify;
-    font-size: 16px;
-    font-family: 'Noto Serif TC', serif;
-  }
-  .line-one {
-    display: none;
-  }
-  .line-two {
-    display: none;
-  }
-
-  blockquote {
-    font-family: "Playfair Display", serif;
-    color: #a82324;
-    margin-left: 0;
-    width: 100%;
-    font-size: 22px;
-    padding-left: 1em;
-  }
-  .blockqoute {
-    position: absolute;
-    display: grid;
-    bottom: 30%;
-    margin: 2%;
-    left: 20%;
-    justify-content: center;
-  }
-  blockquote:before {
-    content: open-quote;
-  }
-  blockquote:after {
-    content: close-quote;
-  }
-
-  .qoute {
-    font-size: 18px;
     text-align: center;
     font-family: "Playfair Display", serif;
   }
@@ -1114,19 +929,18 @@ a {
   .line-two {
     display: none;
   }
-
   blockquote {
     font-family: "GFS Didot", serif;
     color: #a82324;
     width: 100%;
     left: 200px;
-    font-size: 28px;
+    font-size: 30px;
   }
   .blockqoute {
     position: absolute;
     display: grid;
     top: 65%;
-    left: 10px;
+    left: 8%;
     justify-content: center;
   }
   blockquote:before {
@@ -1142,3 +956,21 @@ a {
     font-family: "GFS Didot", serif;
   }
 }
+
+@media screen and (min-width: 900px) {
+  blockquote {
+    font-family: "GFS Didot", serif;
+    color: #a82324;
+    width: 100%;
+    left: 200px;
+    font-size: 26px;
+  }
+  .blockqoute {
+    position: absolute;
+    display: grid;
+    top: 50%;
+    left: 20%;
+    justify-content: center;
+  }
+}
+
